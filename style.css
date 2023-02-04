@@ -6,83 +6,72 @@
     font-family: "Source Sans Pro", sans-serif;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    background: #fff;
-    box-shadow: 0 4px 25px -22px black;
-    z-index: 2;
+/* barra de navegación */
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #191c32;
+    color: white;
 }
 
-.header-content {
-    max-width: 1200px;
-    margin: auto;
+.navbar {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    padding: 2em;
 }
 
-.logo {
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.brand {
+    margin-top: -7px;
 }
 
-.logo b{
-    color:#46a2fd;
+.brand span{
+    color: aqua;
 }
 
 .menu {
-    height: 80px;
-}
-
-.menu nav {
-    height: 100%;
-}
-
-.menu nav ul {
-    height: 100%;
     display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li {
     list-style: none;
 }
 
-.menu nav ul li {
-    height: 100%;
-    margin: 0px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+.menu a {
+    color: white;
+    padding: 10px 20px;
 }
 
-.menu-selected:before{
-    content: "";
-    width: 100%;
-    height: 4px;
-    background-color: #46a2fd;
-    position: absolute;
-    top: 0;
-    left: 0;
+.menu .active {
+    color: aqua;
 }
 
-.menu nav ul li a {
-    color:#777777;
-    font-size: 18px;
-    transition: color 300ms;
+.menu a:hover{
+    background-color: aqua;
+    color: #191c32;
+    border-radius: 10px 20px;
 }
 
-.menu nav ul li a:hover{
-    color:#46a2fd;
-}
 
-.menu .text-menu-selected {
-    color: #46a2fd;
-}
 
-/* CONTENEDOR CONTENIDO DEL ARTICULO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+CONTENEDOR CONTENIDO DEL ARTICULO
 
 .container-content {
     width: 1200px;
@@ -130,7 +119,7 @@ article img {
     margin-top: 20px;
 }
 
-/* aside de los articulos relacionados */
+aside de los articulos relacionados
 
 .container-aside aside {
     width: 320px;
@@ -167,78 +156,7 @@ article img {
 .container-aside aside button:hover {
     opacity: 0.9;
 }
-
-
-
-/* footer */
-
-.container-footer {
-    width: 100%;
-    padding: 40px 0;
-    background: #f7f7f7;
-    margin-top: 40px;
-}
-
-.container-footer footer {
-    max-width: 1200px;
-    margin: auto;
-}
-
-.container-footer footer .logo-footer {
-    text-align: center;
-}
-
-.container-footer footer .logo-footer img {
-    width: 100px;
-}
-
-.container-footer footer .redes-footer {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.container-footer footer .redes-footer .icon-redes-footer {
-    font-size: 20px;
-    margin: 20px;
-    background: #efefef;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-    color: #a2a2a2;
-}
-
-.container-footer footer .redes-footer .fa-facebook:hover{
-    background: blue;
-    color: #ffffff;
-}
-
-.container-footer footer .redes-footer .fa-twitter:hover{
-    background: blue;
-    color: #ffffff;
-}
-
-.container-footer footer .redes-footer .fa-instagram:hover{
-    background: red;
-    color: #ffffff;
-}
-
-.container-footer footer hr {
-    margin-top: 20px;
-    border: none;
-    height: 2px;
-    background: #c0c0c07a;
-}
-
-.container-footer h4 {
-    text-align: center;
-    margin-top: 40px;
-    color: #8e8e8e;
-    font-weight: 500;
-}
+ */
 
 
 
