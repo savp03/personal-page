@@ -11,7 +11,7 @@
 .wrapper {
     width: 100vw;
     height: 100vh;
-    background-color: #191c32;
+    background-color: #1b2046;
     color: white;
 }
 
@@ -50,7 +50,7 @@
 
 .menu a:hover{
     background-color: aqua;
-    color: #191c32;
+    color: #1b2046;
     border-radius: 10px 20px;
 }
 
@@ -111,7 +111,7 @@ span {
 
 .about-info h2 {
     font-size: 2em;
-    color: #191c32;
+    color: #1b2046;
 }
 
 .divider {
@@ -128,7 +128,7 @@ span {
 
 .portfolio{
     width: 100vw;
-    background-color: #191c32;
+    background-color: #1b2046;
 }
 
 .portfolio-headings {
@@ -190,7 +190,7 @@ span {
 
 .card .project-details a {
     text-decoration: none;
-    color:#191c32;
+    color:#1b2046;
 }
 
 .project-details-content {
