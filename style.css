@@ -181,36 +181,51 @@ span {
     font-size: 1.5em;
 }
 
-.card .project-details {
-    margin: 0 auto;
-    margin: 1em;
-    width: 70%;
-}
 
-.card .project-details a {
-    text-decoration: none;
-    color:#1b2046;
-}
 
-.project-details-content {
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer {
     display: flex;
-    width: 100%;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 150px;
+    padding: 2em;
+    background-color: aqua;
+  }
+  
+  .footer-content h2 {
+    font-size: 3em;
+  }
+  
+  .footer-content h5 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .sotial-networks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
     margin-top: 1em;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
+  
+  .sotial-networks i {
+    font-size: 1.5em;
+  }
+  
 
 
 /* construccion */
@@ -238,6 +253,58 @@ span {
     color: #555;
     margin-bottom: 1em;
 }
+
+
+/* contacto  */
+
+.contact-section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .contact-text {
+    width: 40%;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #444;
+  }
+  
+  .contact-form {
+    width: 60%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
 /* 
 CONTENEDOR CONTENIDO DEL ARTICULO
 
