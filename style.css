@@ -196,19 +196,6 @@ span {
     font-size: 1.5em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 .footer {
     display: flex;
@@ -230,15 +217,16 @@ span {
     text-align: center;
   }
   
-  .sotial-networks {
+  .social-networks {
     display: flex;
     justify-content: space-evenly;
     width: 300px;
     margin-top: 1em;
   }
   
-  .sotial-networks i {
-    font-size: 1.5em;
+  .social-networks a {
+    color: black;
+    font-size: 2em;
   }
   
 
