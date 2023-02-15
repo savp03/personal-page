@@ -6,7 +6,7 @@
     font-family: "Source Sans Pro", sans-serif;
 }
 
-/* barra de navegación */
+/* barra de navegación y main*/
 
 .wrapper {
     width: 100vw;
@@ -90,6 +90,7 @@ span {
     width: 350px;
 }
 
+/* about */
 
 .about {
     display: grid;
@@ -140,6 +141,9 @@ span {
     background-color: #1b2046;
     box-shadow: none;
 }
+
+/* portafolio */
+
 .portfolio{
     width: 100vw;
     background-color: #1b2046;
@@ -156,7 +160,7 @@ span {
     font-size: 2.5em;
 }
 
-.portfolio .container {
+.portfolio-container {
     width: 80vw;
     height: 80vh;
     margin: 0 auto;
@@ -248,18 +252,8 @@ span {
     cursor: pointer;
   }
 
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -291,8 +285,6 @@ span {
     color: black;
     font-size: 2em;
   }
-  
-
 
 /* construccion */
 .wrapper-construction {
