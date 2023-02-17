@@ -9,8 +9,8 @@
 /* barra de navegación y main*/
 
 .wrapper {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: #1b2046;
     color: white;
 }
@@ -56,8 +56,8 @@
 
 .main {
     margin: 0 auto;
-    width: 80vw;
-    height: 80vh;
+    width: 80%;
+    height: 80%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -95,7 +95,7 @@ span {
 .about {
     display: grid;
     grid-template-columns: repeat(10,1fr);
-    width: 100vw;
+    width: 100%;
     align-items: center;
 }
 
@@ -145,12 +145,12 @@ span {
 /* portafolio */
 
 .portfolio{
-    width: 100vw;
+    width: 100%;
     background-color: #1b2046;
 }
 
 .portfolio-headings {
-    width: 100vw;
+    width: 100%;
     padding: 5em;
     color: #fff;
 
@@ -161,7 +161,7 @@ span {
 }
 
 .portfolio-container {
-    width: 80vw;
+    width: 80%;
     height: 80vh;
     margin: 0 auto;
     display: flex;
@@ -170,15 +170,24 @@ span {
 
 .card {
     width: 300px;
+    height: 400px;
     color: #fff;
     background-color: #101e4b;
     margin: 1em;
+    border: 1px solid #2B3157;
 }
 
 .card-image {
     width: 100%;
     height: 150px;
     background-image: url("https://raw.githubusercontent.com/Michaelxk/portfolio-tutorial/master/img/2-original.png");
+    background-size: cover;
+}
+
+.card-image-google-clon {
+    width: 100%;
+    height: 150px;
+    background-image: url("https://user-images.githubusercontent.com/81594274/219540783-08847f85-4d2d-4c27-a660-553529a07fe9.png");
     background-size: cover;
 }
 
@@ -204,8 +213,8 @@ span {
 /* contacto  */
 
 .contact-section {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -259,7 +268,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 150px;
     padding: 2em;
     background-color: aqua;
@@ -288,7 +297,7 @@ span {
 
 /* construccion */
 .wrapper-construction {
-    width: 100vw;
+    width: 100%;
     height: 100px;
     background-color: #1b2046;
     color: white;
