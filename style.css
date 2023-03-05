@@ -25,6 +25,10 @@
     margin-top: -7px;
 }
 
+.brand h1 {
+    font-size: 1.8em;
+}
+
 .brand span{
     color: aqua;
 }
@@ -72,7 +76,7 @@
     align-items: center;
 }
 
-h1 {
+.main h2 {
     font-size: 3em;
 }
 
